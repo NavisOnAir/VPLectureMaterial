@@ -1,3 +1,24 @@
 /Examples/CStartup/.project
 /Examples/CStartup/.settings
 /Examples/CStartup/.cproject
+
+/Tools/
+**/*.zip
+
+# IDEs
+/.vscode/
+/.idea/
+/Workspace/
+**/*.project
+**/*.cproject
+**/.metadata/
+**/.settings/
+
+# build files
+**/*.o
+**/*.bin
+**/*.map
+**/*.a
+**/*.s
+**/*.exe
+**/*.elf

@@ -1,0 +1,4 @@
+qemu-system-arm -s -S -M netduinoplus2 -kernel firmware.bin -nographic
+arm-none-eabi-gdb 
+target remote localhost:1234
+add-symbol-file firmware.elf
